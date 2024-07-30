@@ -217,11 +217,17 @@
 using namespace std;
 
 int main(){
-    int a=10,b=3;
+    int a,b;
     float c;
+    cout<<"my name is Dimuthu"<<endl;
+    cout<<"Enter first int number: ";cin>>a;
+    cout<<"Enter second int number: ";cin>>b;
+    
     
     c=(float)a/b;
     cout<<c;
+    
+    
     
     return 0;
 }
